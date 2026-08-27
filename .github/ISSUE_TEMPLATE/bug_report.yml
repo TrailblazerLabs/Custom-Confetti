@@ -1,0 +1,36 @@
+name: Bug Report
+description: Create a report to help us fix a bug or issue.
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to report an issue! Please ensure you have attempted installation via the Quick Start guide."
+  - type: dropdown
+    id: salesforce-edition
+    attributes:
+      label: Salesforce Environment / Edition
+      options:
+        - Developer Edition
+        - Sandbox (Enterprise / Unlimited)
+        - Scratch Org
+        - Production (Not Recommended)
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the issue
+      placeholder: What went wrong? Include steps to reproduce or error messages.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs or Console Output
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm I have followed the prerequisite instructions in the README.
+          required: true

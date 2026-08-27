@@ -1,0 +1,13 @@
+# Asset Guidance for Builders
+
+Please replace the placeholder files in this folder with your official project assets before your cohort launch. 
+
+## 1. The Hero Banner
+* **File Name:** `banner.png`
+* **Dimensions:** 1200x630px
+* **Purpose:** This image is automatically fetched by the Trailblazer Labs website API to create your project's showcase card.
+
+## 2. The Demo Media
+* **File Name:** `demo.gif`
+* **Dimensions:** 16:9 aspect ratio recommended (e.g., 1280x720px)
+* **Purpose:** A short demo GIF, architecture diagram, or video showing your asset in action for your READM.
