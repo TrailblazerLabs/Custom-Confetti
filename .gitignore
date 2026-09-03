@@ -1,0 +1,6 @@
+.sfdx/
+.sf/
+node_modules/
+*.swp
+.DS_Store
+Thumbs.db

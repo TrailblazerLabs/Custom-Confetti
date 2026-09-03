@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Colour themes for the Custom Confetti component. Add or edit records here to create new confetti palettes — no code or deployment required.</description>
+    <label>Confetti Theme</label>
+    <pluralLabel>Confetti Themes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

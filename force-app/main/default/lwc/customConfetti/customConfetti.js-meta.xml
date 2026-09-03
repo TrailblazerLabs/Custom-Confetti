@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property
+                name="fieldPath"
+                type="String"
+                label="Field API Path"
+                description="Full field path to watch, e.g. Opportunity.StageName or Case.Status"
+                required="true" />
+            <property
+                name="triggerValue"
+                type="String"
+                label="Trigger Value"
+                description="The field value that triggers confetti, e.g. Closed Won or Resolved"
+                required="true" />
+            <property
+                name="themeName"
+                type="String"
+                label="Confetti Theme (API Name, not Label)"
+                description="Paste the API Name of a Confetti Theme record — NOT its Label. The API Name uses underscores instead of spaces, e.g. the theme labelled 'Green Yellow' has the API Name Green_Yellow. Find it in Setup > Custom Metadata Types > Confetti Theme > Manage Records, in the 'Confetti Theme Name' column. Ships with: Green_Yellow, Navy_Gold, Rainbow, Classic — paste exactly one of these, or the API Name of your own new theme record."
+                default="Green_Yellow" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
