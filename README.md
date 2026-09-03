@@ -4,7 +4,7 @@
 Give your users confetti they can get excited about. No developer required. Put this LWC on any record page layout, pick the field and value that should trigger it, and it showers them with a custom-coloured celebration.
 
 ## The Problem It Solves
-Celebrating a win — a closed deal, a resolved case, an approved request — usually means asking a developer to build something custom, or admins doing without. Custom Confetti puts that moment of delight in an admin's hands: point it at any object and field, pick a trigger value, and it's live. Every colour theme lives in Custom Metadata, so it's reskinnable from Setup, any time, with zero code changes and zero redeployments.
+We love confetti in Salesforce, so why limit ourselves to just the confetti that comes out of the box? Usually you need a Path and an end status to trigger the celebration, but no longer are you restricted to celebrating only the wins Path recognizes. Custom Confetti puts that moment of delight in an admin's hands: drag and drop this invisible LWC component onto any record page layout, select a field, pick a trigger value, and it's live. Every colour theme lives in Custom Metadata, so it's reskinnable from Setup, any time, with zero code changes and zero redeployments.
 
 ## See it in Action
 📺 [Watch the full install + demo](https://paceymia.github.io/Salesforce-Guides/guides/confetti-lwc-install.html) — download, deploy, drag-and-drop, confetti, all in one clip.
