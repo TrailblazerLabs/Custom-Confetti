@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colour_2__c</fullName>
+    <description>Hex colour code, e.g. #FFFFFF. Required.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hex colour code, e.g. #FFFFFF. Required.</inlineHelpText>
+    <label>Colour 2</label>
+    <length>10</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Rainbow</label>
+    <protected>false</protected>
+    <values>
+        <field>Colour_1__c</field>
+        <value xsi:type="xsd:string">#e74c3c</value>
+    </values>
+    <values>
+        <field>Colour_2__c</field>
+        <value xsi:type="xsd:string">#e67e22</value>
+    </values>
+    <values>
+        <field>Colour_3__c</field>
+        <value xsi:type="xsd:string">#f1c40f</value>
+    </values>
+    <values>
+        <field>Colour_4__c</field>
+        <value xsi:type="xsd:string">#2ecc71</value>
+    </values>
+    <values>
+        <field>Colour_5__c</field>
+        <value xsi:type="xsd:string">#3498db</value>
+    </values>
+</CustomMetadata>
