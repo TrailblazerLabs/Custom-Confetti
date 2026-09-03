@@ -23,7 +23,7 @@
                 name="themeName"
                 type="String"
                 label="Confetti Theme (API Name, not Label)"
-                description="Paste the API Name of a Confetti Theme record — NOT its Label. The API Name uses underscores instead of spaces, e.g. the theme labelled 'Green Yellow' has the API Name Green_Yellow. Find it in Setup > Custom Metadata Types > Confetti Theme > Manage Records, in the 'Confetti Theme Name' column. Ships with: Green_Yellow, Navy_Gold, Rainbow, Classic — paste exactly one of these, or the API Name of your own new theme record."
+                description="Paste the API Name of a Confetti Theme record — NOT its Label. The API Name uses underscores instead of spaces, e.g. the theme labelled 'Green Yellow' has the API Name Green_Yellow. Find it in Setup > Custom Metadata Types > Confetti Theme > Manage Records, in the 'Confetti Theme Name' column. Ships with: Green_Yellow, Rainbow — paste one of these, or the API Name of your own new theme record."
                 default="Green_Yellow" />
         </targetConfig>
     </targetConfigs>
