@@ -20,8 +20,6 @@ Deploy this asset directly to your Sandbox or Developer Edition org without touc
 
 [![Deploy to Salesforce](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://githubsfdeploy.herokuapp.com?owner=TrailblazerLabs&repo=Custom-Confetti)
 
-> Heads up: this button needs the repo to be public to work. It'll go live once the program team flips visibility ahead of launch — until then, use Option 2.
-
 ### Option 2: Install via Salesforce CLI (For Developers)
 1. Clone this repository:
    `git clone https://github.com/TrailblazerLabs/Custom-Confetti.git`
