@@ -1,42 +1,37 @@
-# Cohort-Repo-Template
-This is the core structure of Trailblazer Labs repos
-# [Project Name]
-
-![Project Banner](./assets/banner.png)
+# Custom Confetti
 
 ## Overview
-[1-2 sentences explaining exactly what this asset does and who it is for.]
+Give your users confetti they can get excited about. No developer required. Put this LWC on any record page layout, pick the field and value that should trigger it, and it showers them with a custom-coloured celebration.
 
 ## The Problem It Solves
-[Describe the pain point, manual process, or architectural gap this project addresses.]
+Celebrating a win — a closed deal, a resolved case, an approved request — usually means asking a developer to build something custom, or admins doing without. Custom Confetti puts that moment of delight in an admin's hands: point it at any object and field, pick a trigger value, and it's live. Every colour theme lives in Custom Metadata, so it's reskinnable from Setup, any time, with zero code changes and zero redeployments.
 
 ## See it in Action
-![Demo GIF or Image](./assets/demo.gif)
-*(Optional: Link to a Loom or YouTube walkthrough video here)*
+📺 [Watch the full install + demo](https://paceymia.github.io/Salesforce-Guides/guides/confetti-lwc-install.html) — download, deploy, drag-and-drop, confetti, all in one clip.
 
 ## Quick Start Guide
 
 ### Prerequisites
-- [e.g., Requires Agentforce or Service Cloud]
-- [e.g., My Domain must be enabled]
+- A Salesforce org with Lightning Experience enabled (any edition)
+- For Option 2 only: the [Salesforce CLI](https://developer.salesforce.com/tools/salesforcecli) (`sf`), authorised against your target org
 
 ### Option 1: 1-Click Install (Recommended for Admins)
 Deploy this asset directly to your Sandbox or Developer Edition org without touching the command line.
 
-[![Deploy to Salesforce](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://githubsfdeploy.herokuapp.com?owner=Trailblazer-Labs&repo=your-repo-name)
+[![Deploy to Salesforce](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://githubsfdeploy.herokuapp.com?owner=TrailblazerLabs&repo=Custom-Confetti)
+
+> Heads up: this button needs the repo to be public to work. It'll go live once the program team flips visibility ahead of launch — until then, use Option 2.
 
 ### Option 2: Install via Salesforce CLI (For Developers)
-If you prefer to deploy using a local environment, run the following commands:
-
 1. Clone this repository:
-   `git clone https://github.com/Trailblazer-Labs/your-repo-name.git`
+   `git clone https://github.com/TrailblazerLabs/Custom-Confetti.git`
 2. Deploy the metadata to your target org:
-   `sf project deploy start --target-org your-alias`
+   `sf project deploy start --target-org your-alias --source-dir force-app`
 
 ### Post-Installation Steps
-1. Assign the necessary permission sets:
-   `sf org assign permset --name Your_Perm_Set`
-2. [Add any manual setup steps here, like activating a Flow or adjusting a layout]
+1. Open any record page in **Lightning App Builder** and drag **Custom Confetti** onto the page — it's invisible on screen, so placement doesn't matter
+2. Fill in the three properties: **Field API Path** (e.g. `Opportunity.StageName`), **Trigger Value** (e.g. `Closed Won`), and **Confetti Theme** — paste the theme's **API Name**, not its Label (e.g. `Green_Yellow`, not "Green Yellow")
+3. Save and **Activate**
 
 ## About the Creator
-Built by [@YourGitHubUsername](https://github.com/YourGitHubUsername) as part of the Trailblazer Labs Builder in Residence Cohort.
+Built by [@PaceyMia](https://github.com/PaceyMia) as part of the Trailblazer Labs Builder in Residence Cohort.
