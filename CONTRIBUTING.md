@@ -2,6 +2,16 @@
 
 Thank you for helping us build the future of the Salesforce ecosystem! All community assets in this program are open-source and governed by the **Apache 2.0 License**.
 
+## Contributor License Agreement (CLA)
+
+Before your first pull request can be merged, you must sign the **Trailblazer Labs Contributor License Agreement**. This is a one-time step:
+
+- When you open a pull request, an automated check (`cla/signed`) verifies whether you have signed.
+- If you have not, the check will fail and a comment will be added to your pull request with a link to **[sign the CLA](https://trailblazerlabs.salesforce.com/cla/)**.
+- Signing takes about a minute and is done through your GitHub account. **You only need to sign once** — your signature covers every Trailblazer Labs repository.
+- After signing, push a new commit and the `cla/signed` status will update automatically. Pull requests cannot be merged until this check passes.
+
+
 ## How You Can Contribute
 
 ### 1. Report a Bug
