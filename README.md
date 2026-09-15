@@ -1,4 +1,5 @@
 # Custom Confetti
+![Custom Confetti](ConfettiREADMEHeader1-ezgif.com-optimize.gif)
 
 ## Overview
 Give your users confetti they can get excited about. No developer required. Put this LWC on any record page layout, pick the field and value that should trigger it, and it showers them with a custom-coloured celebration.
